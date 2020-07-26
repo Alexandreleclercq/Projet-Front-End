@@ -1,0 +1,85 @@
+body {
+    background-color: grey;
+    background-image: url(Houses_Skyscrapers_Synthwave_by_Romain_Trystram_562738_3840x1602.jpg);
+}
+
+canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#score {
+    color: rgb(248, 151, 211);
+    height: 80px;
+    width: 150px;
+    left: 850px;
+    top: 8%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#lose {
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 100px);
+    display: none;
+    width: 500px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border: 2px dashed white;
+    border-radius: 10px;
+}
+
+#win {
+    color: green;
+    font-size: 40px;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 100px);
+    display: none;
+    width: 500px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border: 2px dashed white;
+    border-radius: 10px;
+}
+
+.myButton {
+    box-shadow: 3px 4px 0px 0px #1564ad;
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color: #79bbff;
+    border-radius: 5px;
+    border: 1px solid #337bc4;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 44px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528ecc;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+    background-color: #378de5;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+
+}
